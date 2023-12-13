@@ -1,0 +1,77 @@
+html, body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  background: url("background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+header {
+  width: 85%;
+  height: 85px;
+  background-color: rgba(0, 0, 0, 0.506);
+  position: fixed;
+  border: 1px solid rgba(245, 245, 245, 0.105);
+  border-radius: 10%;
+}
+
+.space {
+  width: 85%;
+  height: 80px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+ol {
+  list-style-type: none;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  margin: 1%;
+}
+
+a {
+  direction: none;
+  color: white;
+  margin: 1%;
+  font-size: 1.3em;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div {
+  width: 400px;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.506);
+  margin: 25px;
+  border: 1px solid rgba(245, 245, 245, 0.105);
+  padding: 3px;
+  text-align: justify;
+  border-radius: 5%;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
+
+footer {
+  width: 85%;
+  height: 5vw;
+  background-color: rgba(0, 0, 0, 0.506);
+  border-radius: 5%;
+}/*# sourceMappingURL=style.css.map */
